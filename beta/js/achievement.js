@@ -40,6 +40,7 @@ let achievements = [
 	new Achivement('Automation Inception', () => game.autoauto, 'Purchase Auto-Automation', 'aa'),
 	new Achivement('Why Wasn\'t This in Infinite Layers?', lu([499]), 'Unlock Bulk Prestige', 'why'),
 	new Achivement('Exponential Prestige', () => game.bulk_level >= 5, 'Reach Bulk Prestige Level 5', 'exp_prestige'),
+	new Achivement('DECKER!!!', amgt('eeeeeeeee10'), 'Reach E1#10 antimatter', 'Lol'),
 ]
 
 function createAchievement(n) {
